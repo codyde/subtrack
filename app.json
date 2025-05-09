@@ -8,14 +8,15 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0A84FF"
-    },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.codydearkland.subtrack"
+      "bundleIdentifier": "com.codydearkland.subtrack",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": [],
+        "CFBundleDisplayName": "subTrack",
+        "LSApplicationQueriesSchemes": []
+      }
     },
     "web": {
       "bundler": "metro",
